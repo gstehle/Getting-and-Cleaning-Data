@@ -1,5 +1,19 @@
 Data Set Information:
 
+**UPDATED DATA SET INFORMATION**
+
+The names in the tidy data set are named by the following conventions:
+
+1) present if the variable is the 'angle' between two other variables
+2) domain (time or frequency)
+3) measurement (body acceleration, body jerk, gravity acceleration, angular acceleration, angular jerk)
+4) present if the variable is a magnitude (see #5)
+5) operation performed on measurement (mean or standard deviation)
+6) present if the variable is a frequency mean
+7) present if the variable is not a magnitude, denotes which axis (x,y,z) is being measured
+
+**ORIGINAL DATA SET INFORMATION**
+
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six 
 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on 
 the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a 
@@ -28,14 +42,3 @@ For each record in the dataset it is provided:
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
-
-
-The names in the tidy data set are named by the following conventions:
-
-1) present if the variable is the 'angle' between two other variables
-2) domain (time or frequency)
-3) measurement (body acceleration, body jerk, gravity acceleration, angular acceleration, angular jerk)
-4) present if the variable is a magnitude (see #5)
-5) operation performed on measurement (mean or standard deviation)
-6) present if the variable is a frequency mean
-7) present if the variable is not a magnitude, denotes which axis (x,y,z) is being measured
